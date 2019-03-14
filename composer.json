@@ -1,5 +1,5 @@
 {
-    "name": "hslavich/oneloginsaml-bundle",
+    "name": "quidage/oneloginsaml-bundle",
     "type": "symfony-bundle",
     "description": "OneLogin SAML Bundle for Symfony2",
     "keywords": ["onelogin", "saml", "sso"],
@@ -8,6 +8,10 @@
         {
             "name": "hslavich",
             "email": "hernan.slavich@gmail.com"
+        },
+        {
+            "name": "Christian Hansen",
+            "email": "christian@herrhansen.com"
         }
     ],
     "require": {
