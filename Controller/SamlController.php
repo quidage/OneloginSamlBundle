@@ -35,9 +35,6 @@ class SamlController extends AbstractController
         $auth = $this->get('onelogin_auth');
         $metadata = $auth->getSettings()->getSPMetadata();
 
-        var_dump($metadata);
-        exit();
-
         $response = new Response($metadata);
         $response->headers->set('Content-Type', 'xml');
 
